@@ -26,6 +26,16 @@ const NameYourComponent = () => {
 };
 ```
 
+A React theme component accepts the following props:
+
+| Key         | Description                            |
+| :---------- |:---------------------------------------|
+| `darkIcon`  | Image with .png .jpg. jpeg extensions. |
+| `lightIcon`  | Image with .png .jpg. jpeg extensions. |
+| `altDark` | Type string, required.                 |
+| `altLight` | Type string, required.                 |
+| `size`  | Type string. Size for your icon.       |
+
 ## Add your global styles. Example:
 
 ```css
@@ -51,12 +61,3 @@ body {
 $ npm i dark-mode-react
 ```
 
-A `darkMode` object is returned with the following properties.
-
-| Key         | Description                            |
-| :---------- |:---------------------------------------|
-| `darkIcon`  | Image with .png .jpg. jpeg extensions. |
-| `lightIcon`  | Image with .png .jpg. jpeg extensions. |
-| `altDark` | Type string, required.                 |
-| `altLight` | Type string, required.                 |
-| `size`  | Type string. Size for your icon.       |
