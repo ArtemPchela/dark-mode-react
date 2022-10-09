@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 
-const Theme = ({darkIcon, lightIcon, altDark, altLight, size}) => {
+const Theme = ({darkIcon, lightIcon, altDark, altLight, imgWidth, imgHeight, myClass}) => {
   const [theme, setTheme] = useState(localStorage.getItem("theme"));
 
   const toggleTheme = () => {
@@ -13,10 +13,10 @@ const Theme = ({darkIcon, lightIcon, altDark, altLight, size}) => {
   }, [theme]);
 
   return (
-    <div className="theme_toggle" onClick={toggleTheme}>
+    <div className={myClass} onClick={toggleTheme}>
       {theme === "dark"
-        ? <img src={darkIcon} alt={altDark} style={{width: `${size}`}}/>
-        : <img src={lightIcon} alt={altLight} style={{width: `${size}`}}/>
+        ? <img src={darkIcon} alt={altDark} width={imgWidth} height={imgHeight}/>
+        : <img src={lightIcon} alt={altLight} width={imgWidth} height={imgHeight}/>
       }
     </div>
   );

@@ -19,7 +19,9 @@ const NameYourComponent = () => {
         lightIcon={yourLightImage}
         altDark='dark icon'
         altLight="light icon"
-        size='5rem'
+        width={50}
+        height={50}
+        className="your-class_name"
       />
     </div>
   )
@@ -28,13 +30,17 @@ const NameYourComponent = () => {
 
 A React theme component accepts the following props:
 
-| Key         | Description                            |
-| :---------- |:---------------------------------------|
-| `darkIcon`  | Image with .png .jpg. jpeg extensions. |
-| `lightIcon`  | Image with .png .jpg. jpeg extensions. |
-| `altDark` | Type string, required.                 |
-| `altLight` | Type string, required.                 |
-| `size`  | Type string. Size for your icon.       |
+| Key         | Description                                                                       |
+|:------------|:----------------------------------------------------------------------------------|
+| `darkIcon`  | Image with .png, .jpg, .svg<sup>*</sup> extensions.                               |
+| `lightIcon` | Image with .png, .jpg, .svg<sup>*</sup> extensions.                                           |
+| `altDark`   | Type string, required.                                                            |
+| `altLight`  | Type string, required.                                                            |
+| `width`     | Type number. Width for your icon.                                                 |
+| `height`    | Type number. Height for your icon.                                                |
+| `myClass`   | Type String. If you want to have background or add hover effect for icon wrapper. |
+
+<sup>*</sup> - Don't **forget**, **svg** has width and height by **default**.
 
 ## Add your global styles. Example:
 
