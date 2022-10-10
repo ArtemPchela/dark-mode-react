@@ -1,5 +1,6 @@
 # dark-mode-react
 
+![license](https://badgen.net/npm/license/dark-mode-react) ![downloads](https://badgen.net/npm/dt/dark-mode-react) ![node](https://badgen.net/github/stars/ArtemPchela/dark-mode-react)
 > NOTE: react dark mode based on "react": "^18.2.0" and "react-dom": "^18.2.0".
 > The user setting persists to `localStorage`.
 
@@ -41,15 +42,15 @@ const NameYourComponent = () => {
 
 A React theme component accepts the following props:
 
-| Key         | Description                                                                       |
-|:------------|:----------------------------------------------------------------------------------|
-| `darkIcon`  | Image with .png, .jpg, .svg<sup>*</sup> extensions.                               |
-| `lightIcon` | Image with .png, .jpg, .svg<sup>*</sup> extensions.                               |
-| `altDark`   | Type string, required.                                                            |
-| `altLight`  | Type string, required.                                                            |
-| `imgWidth`     | Type string. Width for your icon.                                                 |
-| `imgHeight`    | Type string. Height for your icon.                                                |
-| `myClass`   | Type String. If you want to have background or add hover effect for icon wrapper. |
+| Key         | Type   | Description                                                          |
+|:------------|:-------|:---------------------------------------------------------------------|
+| `darkIcon`  | -      | Work with .png, .jpg, .svg<sup>*</sup> extensions.                   |
+| `lightIcon` | -      | Work with .png, .jpg, .svg<sup>*</sup> extensions.                   |
+| `altDark`   | string | For better accessibility.                                            |
+| `altLight`  | string | For better accessibility.                                            |
+| `imgWidth`    | string | Width for your icon.                                                 |
+| `imgHeight`   | string | Height for your icon.                                                |
+| `myClass`   | string | If you want to have background or add hover effect for icon wrapper. |
 
 <sup>*</sup> - Don't **forget**, **svg** has width and height by **default**.
 

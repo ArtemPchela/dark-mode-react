@@ -10,9 +10,6 @@
     "type": "git",
     "url": "https://github.com/ArtemPchela/dark-mode-react"
   },
-  "dependencies": {
-    "@babel/runtime": "^7.19.0"
-  },
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -56,6 +53,7 @@
   "devDependencies": {
     "@babel/cli": "^7.19.3",
     "@babel/core": "^7.19.3",
+    "@babel/runtime": "^7.19.0",
     "@babel/plugin-transform-runtime": "^7.19.1",
     "@babel/preset-env": "^7.19.3",
     "@babel/preset-react": "^7.18.6",
