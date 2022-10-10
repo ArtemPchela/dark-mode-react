@@ -63,7 +63,7 @@ A React theme component accepts the following props:
 }
 
 [data-theme='light'] {
-  --background: #227d2c;
+  --background-color: #227d2c;
   --color-text: black
 }
 
