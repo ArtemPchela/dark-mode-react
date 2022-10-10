@@ -3,6 +3,17 @@
 > NOTE: react dark mode based on "react": "^18.2.0" and "react-dom": "^18.2.0".
 > The user setting persists to `localStorage`.
 
+### dark-mode-react:
+
+<ul>
+    <li>a minimal lightweight component for your React projects.</li>
+    <li>quickly setup</li>
+    <li>has a small bundle size and zero dependencies</li>
+    <li>you have total control with styles - css, scss, sass, tailwind ui.</li>
+</ul>
+
+#### dark-mode-react you have total control with styles - css, scss, sass, tailwind ui.
+
 Don't forget about ⭐ [GitHub](https://github.com/ArtemPchela/dark-mode-react)
 
 ```jsx
