@@ -7,13 +7,13 @@ const input = 'src/index.js'
 
 let MODE = [
   {
-    fomart: 'cjs'
+    format: 'cjs'
   },
   {
-    fomart: 'esm'
+    format: 'esm'
   },
   {
-    fomart: 'umd'
+    format: 'umd'
   }
 ]
 
@@ -23,10 +23,15 @@ MODE.map((m) => {
   let conf = {
     input: input,
     output: {
-      name: "react-awesome-buttons",
-      file: `dist/index.${m.fomart}.js`,
-      format: m.fomart,
-      exports: "auto"
+      name: "dark-mode-react",
+      file: `dist/index.${m.format}.js`,
+      format: m.format,
+      exports: "auto",
+      globals: {
+        'react': 'React',
+        'react-dom': 'ReactDOM',
+        '@babel/runtime/helpers/slicedToArray': '_slicedToArray'
+      },
     },
     external: ["react", /@babel\/runtime/],
     plugins: [
