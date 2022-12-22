@@ -33,7 +33,7 @@ const NameYourComponent = () => {
         altLight="light icon"
         imgWidth='50'
         imgHeight='50'
-        className="your-class_name"
+        myClass="your-class_name"
       />
     </div>
   )

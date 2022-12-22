@@ -5,4 +5,4 @@ const ThemeLibrary = () => {
     Theme: Theme
   }
 }
-export default ThemeLibrary()
+export default ThemeLibrary;

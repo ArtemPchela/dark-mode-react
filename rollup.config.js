@@ -1,19 +1,20 @@
-import babel from '@rollup/plugin-babel';
+import babel from "@rollup/plugin-babel";
 import styles from "rollup-plugin-styles";
-import sourcemaps from 'rollup-plugin-sourcemaps';
-const autoprefixer = require('autoprefixer');
+import sourcemaps from "rollup-plugin-sourcemaps";
 
-const input = 'src/index.js'
+const autoprefixer = require("autoprefixer");
+
+const input = "src/index.js"
 
 let MODE = [
   {
-    format: 'cjs'
+    format: "cjs"
   },
   {
-    format: 'esm'
+    format: "esm"
   },
   {
-    format: 'umd'
+    format: "umd"
   }
 ]
 
@@ -28,17 +29,17 @@ MODE.map((m) => {
       format: m.format,
       exports: "auto",
       globals: {
-        'react': 'React',
-        'react-dom': 'ReactDOM',
-        '@babel/runtime/helpers/slicedToArray': '_slicedToArray'
+        "react": "React",
+        "react-dom": "ReactDOM",
+        "@babel/runtime/helpers/slicedToArray": "_slicedToArray"
       },
     },
-    external: ["react", /@babel\/runtime/],
+    external: ["react", /@babel\/runtime/, /@babel\/runtime\/helpers\/slicedToArray/],
     plugins: [
       babel({
-        exclude: 'node_modules/**',
-        plugins: ['@babel/transform-runtime'],
-        babelHelpers: 'runtime'
+        exclude: "node_modules/**",
+        plugins: ["@babel/transform-runtime"],
+        babelHelpers: "runtime"
       }),
       sourcemaps(),
       styles({
