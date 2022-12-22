@@ -1,7 +1,9 @@
 # dark-mode-react
 
-![license](https://badgen.net/npm/license/dark-mode-react) ![downloads](https://badgen.net/npm/dt/dark-mode-react) ![node](https://badgen.net/github/stars/ArtemPchela/dark-mode-react)
-> NOTE: react dark mode based on "react": "^18.2.0" and "react-dom": "^18.2.0".
+[![Npm package version](https://badgen.net/npm/v/dark-mode-react)](https://npmjs.com/package/dark-mode-react)
+[![Npm package total downloads](https://badgen.net/npm/dt/dark-mode-react)](https://npmjs.com/package/dark-mode-react)
+[![Npm package daily downloads](https://badgen.net/npm/dw/dark-mode-react)](https://npmjs.com/package/dark-mode-react)
+[![Npm package daily downloads](https://badgen.net/npm/dd/dark-mode-react)](https://npmjs.com/package/dark-mode-react)> NOTE: react dark mode based on "react": "^18.2.0" and "react-dom": "^18.2.0".
 > The user setting persists to `localStorage`.
 
 ### dark-mode-react:
@@ -11,6 +13,7 @@
     <li>quickly setup</li>
     <li>has a small bundle size and zero dependencies</li>
     <li>you have total control with styles - css, scss, sass, tailwind ui.</li>
+    <li style="color: red">Doesn't support Vite and TS</li>
 </ul>
 
 #### dark-mode-react you have total control with styles - css, scss, sass, tailwind ui.
