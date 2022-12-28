@@ -4,7 +4,7 @@
 [![Npm package total downloads](https://badgen.net/npm/dt/dark-mode-react)](https://npmjs.com/package/dark-mode-react)
 [![Npm package daily downloads](https://badgen.net/npm/dw/dark-mode-react)](https://npmjs.com/package/dark-mode-react)
 [![Npm package daily downloads](https://badgen.net/npm/dd/dark-mode-react)](https://npmjs.com/package/dark-mode-react)
-[![Npm package license](https://badgen.net/license/lodash)](https://npmjs.com/package/dark-mode-react)
+[![Npm package license](https://badgen.net/license/lodash)]
 
 > NOTE: react dark mode based on "react": "^18.2.0" and "react-dom": "^18.2.0".
 > The user setting persists to `localStorage`.
