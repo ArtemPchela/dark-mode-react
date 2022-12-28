@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 
-export const Theme = ({darkIcon, lightIcon, altDark, altLight, imgWidth, imgHeight, myClass}) => {
+const Theme = ({darkIcon, lightIcon, altDark, altLight, imgWidth, imgHeight, myClass}) => {
   const [theme, setTheme] = useState(localStorage.getItem("theme"));
 
   const toggleTheme = () => {
@@ -22,4 +22,4 @@ export const Theme = ({darkIcon, lightIcon, altDark, altLight, imgWidth, imgHeig
   );
 };
 
-// export default Theme;
+export default Theme;
