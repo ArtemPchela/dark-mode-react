@@ -21,5 +21,3 @@ export const Theme = ({darkIcon, lightIcon, altDark, altLight, imgWidth, imgHeig
     </div>
   );
 };
-
-// export default Theme;
