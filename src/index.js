@@ -1,8 +1,9 @@
-import Theme from "./theme";
-const ThemeLibrary = () => {
-  return {
-    Theme: Theme
-  }
-}
+export {Theme} from "./theme";
 
-export default ThemeLibrary;
+// const ThemeLibrary = () => {
+//   return {
+//     Theme: Theme
+//   }
+// }
+//
+// export default ThemeLibrary;

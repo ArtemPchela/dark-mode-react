@@ -37,12 +37,6 @@ var Theme = function Theme(_ref) {
     width: imgWidth,
     height: imgHeight
   }));
-};
+}; // export default Theme;
 
-var ThemeLibrary = function ThemeLibrary() {
-  return {
-    Theme: Theme
-  };
-};
-
-export { ThemeLibrary as default };
+export { Theme };

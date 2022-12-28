@@ -1,5 +1,7 @@
 'use strict';
 
+Object.defineProperty(exports, '__esModule', { value: true });
+
 var _slicedToArray = require('@babel/runtime/helpers/slicedToArray');
 var React = require('react');
 
@@ -44,12 +46,6 @@ var Theme = function Theme(_ref) {
     width: imgWidth,
     height: imgHeight
   }));
-};
+}; // export default Theme;
 
-var ThemeLibrary = function ThemeLibrary() {
-  return {
-    Theme: Theme
-  };
-};
-
-module.exports = ThemeLibrary;
+exports.Theme = Theme;

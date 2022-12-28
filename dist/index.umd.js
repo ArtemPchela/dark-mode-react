@@ -1,8 +1,8 @@
 (function (global, factory) {
-  typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('@babel/runtime/helpers/slicedToArray'), require('react')) :
-  typeof define === 'function' && define.amd ? define(['@babel/runtime/helpers/slicedToArray', 'react'], factory) :
-  (global = typeof globalThis !== 'undefined' ? globalThis : global || self, global["dark-mode-react"] = factory(global._slicedToArray, global.React));
-})(this, (function (_slicedToArray, React) { 'use strict';
+  typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@babel/runtime/helpers/slicedToArray'), require('react')) :
+  typeof define === 'function' && define.amd ? define(['exports', '@babel/runtime/helpers/slicedToArray', 'react'], factory) :
+  (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global["dark-mode-react"] = {}, global._slicedToArray, global.React));
+})(this, (function (exports, _slicedToArray, React) { 'use strict';
 
   function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
@@ -45,14 +45,10 @@
       width: imgWidth,
       height: imgHeight
     }));
-  };
+  }; // export default Theme;
 
-  var ThemeLibrary = function ThemeLibrary() {
-    return {
-      Theme: Theme
-    };
-  };
+  exports.Theme = Theme;
 
-  return ThemeLibrary;
+  Object.defineProperty(exports, '__esModule', { value: true });
 
 }));
