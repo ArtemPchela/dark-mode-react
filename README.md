@@ -16,7 +16,7 @@
     <li>quickly setup</li>
     <li>has a small bundle size and zero dependencies</li>
     <li>you have total control with styles - css, scss, sass, tailwind ui.</li>
-    <li style="color: red">Doesn't support Vite and TS</li>
+    <li style="color: red"><b>Doesn't support Vite and TS</b></li>
 </ul>
 
 ### If you would like to switch your React app on [Vite](https://vitejs.dev/) or [TypeScript](https://www.typescriptlang.org/docs/handbook/react.html) or both of them. Install [dark-mode-ts](https://www.npmjs.com/package/dark-mode-ts) version. 
